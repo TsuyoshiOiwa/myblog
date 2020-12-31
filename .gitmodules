@@ -1,3 +1,7 @@
 [submodule "themes/zzo"]
 	path = themes/zzo
 	url = https://github.com/zzossig/hugo-theme-zzo.git
+[submodule "TsuyoshiOiwa.github.io"]
+	path = public
+	url = git@github.com:TsuyoshiOiwa/TsuyoshiOiwa.github.io
+	branch = master
