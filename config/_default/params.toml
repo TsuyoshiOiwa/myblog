@@ -63,7 +63,7 @@ bioImageUrl = "/images/whoami/avatar.jpg"
 useGravatar = false
 location = "Kanto, Japan"
 # organization = "Hugo"
-link = "kari.com"
+link = "https://tsuyoshioiwa.github.io"
 
 # sidebar
 enableBio = true
