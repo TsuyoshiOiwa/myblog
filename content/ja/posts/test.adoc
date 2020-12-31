@@ -1,0 +1,165 @@
+---
+title: "Test"
+date: 2020-12-22T06:46:33+09:00
+description: "testです"
+draft: true
+---
+// :imagesdir: content/en/posts/test/images
+:imagesoutdir: content/en/posts/test
+
+== テスト投稿
+
+テスト投稿です
+
+=== OK
+{{< codes java >}}
+{{< code >}}
+  ```java
+  System.out.println("Hello World!");
+  ```
+{{< /code >}}
+{{< /codes >}}
+
+aa
+
+{{< figure src="images/animal-class.svg" caption="caption" >}}
+
+One morning, aaaaa
+
+
+.Optional Title
+
+*Literal* Block
+
+Use: workaround when literal
+paragraph (indented) like
+  1. First.
+  2. Second.
+incorrectly processed as list.
+
+CAUTION: aiueo info
+
+TIP: aaa
+
+{{< tabs Windows MacOS Ubuntu >}}
+  {{< tab >}}
+
+  ### Windows section
+
+{{ code }}
+  ```javascript line-numbers
+  console.log('Hello World!');
+  ```
+{{ /code }}
+
+  {{< /tab >}}
+  {{< tab >}}
+
+  ### MacOS section
+
+  Hello world!
+  {{< /tab >}}
+  {{< tab >}}
+
+  ### Ubuntu section
+
+  Great!
+  {{< /tab >}}
+{{< /tabs >}}
+
+
+.Bulleted
+* bullet
+* bullet
+  - bullet
+  - bullet
+* bullet
+** bullet
+** bullet
+*** bullet
+*** bullet
+**** bullet
+**** bullet
+***** bullet
+***** bullet
+**** bullet
+*** bullet
+** bullet
+* bullet
+
+[horizontal]
+.Labeled horizontal
+Term 1:: Definition 1
+Term 2:: Definition 2
+[horizontal]
+    Term 2.1;;
+        Definition 2.1
+    Term 2.2;;
+        Definition 2.2
+Term 3::
+    Definition 3
+Term 4:: Definition 4
+[horizontal]
+Term 4.1::: Definition 4.1
+Term 4.2::: Definition 4.2
+[horizontal]
+Term 4.2.1:::: Definition 4.2.1
+Term 4.2.2:::: Definition 4.2.2
+Term 4.3::: Definition 4.3
+Term 5:: Definition 5
+
+.An example table
+[options="header"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+.Optional Title
+[quote, cite author, cite source]
+____
+*Quote* Block
+
+Use: cite somebody
+____
+
+docdir {docdir}
+
+outfile {outfile}
+
+docfile {docfile}
+
+outdir {outdir}
+
+
+
+
+.bbb
+[plantuml, images/animal-class, svg]
+----
+class Animal {
+  ruaaaan111()
+}
+
+class Cat extends Animal {
+}
+----
+
+
+.aaa
+[source,java,linenums]
+----
+public class Test {
+
+}
+----
+
+.bbb
+{{< highlight java >}}
+public class Test {
+
+}
+{{< /highlight >}}

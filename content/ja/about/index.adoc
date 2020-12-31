@@ -1,0 +1,16 @@
++++
+title = "About"
+description = "このブログについて"
+type = "about"
+date = "2020-12-31"
++++
+
+忘れっぽい作者が学んだこと、知ったことを記録しておくサイトです。
+
+このブログの作成には静的サイトジェネレータとして「HUGO」を利用しています。
+
+https://gohugo.io/[https://gohugo.io/]
+
+また、利用テーマとして「Zzo theme」を利用しています。
+
+https://zzo-docs.vercel.app/[https://zzo-docs.vercel.app/]

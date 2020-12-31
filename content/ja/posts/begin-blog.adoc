@@ -1,0 +1,20 @@
+---
+title: "ブログ始めました"
+date: 2020-12-31T11:17:58+09:00
+draft: false
+tags: ["つぶやき"]
+description: " "
+enableToc: true
+hideToc: false
+image: ""
+tocFolding: false
+---
+:outdir: content/ja/posts/
+:toc:
+:toclevels: 3
+
+HUGO使ったブログを作成したので学んだこととか来年から記録していきたい
+
+とりあえず後はGithubに上げて公開すればいいだけのはず
+
+ドメインはとりあえず適当でいいや

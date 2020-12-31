@@ -1,0 +1,15 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: false
+tags: []
+description: ""
+enableToc: true
+enableTocSwitch:
+hideToc: false
+image: ""
+tocFolding: true
+---
+:outdir: content/ja/{{ .Dir }}
+:toc:
+:tocLevels: 3
